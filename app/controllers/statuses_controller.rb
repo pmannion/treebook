@@ -4,6 +4,7 @@ class StatusesController < ApplicationController
   def index
     @statuses = Status.all
 
+
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @statuses }
@@ -14,6 +15,7 @@ class StatusesController < ApplicationController
   # GET /statuses/1.json
   def show
     @status = Status.find(params[:id])
+
 
     respond_to do |format|
       format.html # show.html.erb
