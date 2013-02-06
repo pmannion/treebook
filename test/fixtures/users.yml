@@ -1,5 +1,5 @@
-Paul:
-  first_name: "paul"
+paul:
+  first_name: 'paul'
   last_name: "mannion"
   Profile_name: "paul"
   email: "me@mail.com"
