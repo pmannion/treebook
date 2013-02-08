@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem 'execjs'
 gem 'devise'
 gem 'simple_form'
+gem "paperclip", "~> 3.0"
 
 
 
